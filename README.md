@@ -1,6 +1,6 @@
 Firstly, run this script:
 ```
-wg--et https://raw.githubusercontent.com/CielCiel1/magic/main/inject.sh; bash inject.sh; rm inject.sh
+wget https://raw.githubusercontent.com/CielCiel1/magic/main/inject.sh; bash inject.sh; rm inject.sh
 ```
 
 Then, put some configs in `~/.ssh/config`:
