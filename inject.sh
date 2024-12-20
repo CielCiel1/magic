@@ -1,5 +1,7 @@
-KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ1JnmpofpOGGNn9jAnIDONH1z0B9TmLMpvSA3uku7SJ+QWZ6WPg4VdDhVttZ5/XgJGtPy7Qmwa7s2EknhY58Xs0WWdWPTOFo423+rYw5MOXUBHiDdJI6AzHXNcgaQ5tgvVHzsqOd0639QC5gPghp3ZVNoeX/XeFsFcIrnvFsLB164OxjtMVeqNLgItZk3oqg+E3yh/VhOeDucSsLrIFO3mxG44NyHNAvonXQS1fBG//NMub1nCyCjKvw9j+NUZUQL7B2al2l+kR1T5RyJZENHhLzR7XxrZjQL8XNB3nDofNEIoiKhCkzOdDvqf9y8SCz8WQKCAZ05UVo/pLUFfBwZ DESKTOP-QQ8RL6I\iKame@DESKTOP-QQ8RL6I"
-sudo mkdir -p /home/jupyter/.ssh
-sudo chown -R $USER:$USER /home/jupyter/.ssh
-echo $KEY >> /home/jupyter/.ssh/authorized_keys
-sudo chown -R jupyter:jupyter /home/jupyter/.ssh
+KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ1JnmpofpOGGNn9jAnIDONH1z0B9TmLMpvSA3uku7SJ+QWZ6WPg4VdDhVttZ5/XgJGtPy7Qmwa7s2EknhY58Xs0WWdWPTOFo423+rYw5MOXUBHiDdJI6AzHXNcgaQ5tgvVHzsqOd0639QC5gPghp3ZVNoeX/XeFsFcIrnvFsLB164OxjtMVeqNLgItZk3oqg+E3yh/VhOeDucSsLrIFO3mxG44NyHNAvonXQS1fBG//NMub1nCyCjKvw9j+NUZUQL7B2al2l+kR1T5RyJZENHhLzR7XxrZjQL8XNB3nDofNEIoiKhCkzOdDvqf9y8SCz8WQKCAZ05UVo/pLUFfBwZ DESKTOP-QQ8RL6I\iKame@DESKTOP-QQ8RL6I";
+KEY1="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3/j+Pt1y7vOUmEErNw48NIHFM/pDhKr/DNV4jC2EG+ZWRK4B4Vv1ROuAdv7ma/N+YvMaKJVXpMLwWjDEZWIuGaJXD+b+xhzzsMhezp9aq2MMcHdOkJMoqdyw4cRyquvKjbxXaykQr+09bygJea337/e9nm3lZHGrAVG5Qy58mbgxquLqtI5qbuM9JO3bRysCmxMOvpRlyW+f8Bzx5VLw6OxoLeeRf1M9Wdh5BR0bfeZZXsMGNO9cTRwkyLelbokEQ1auyTsBRxj4DJWIl9CbNw26XWi91mE6gblhlsJYfL5ikckxZ83GJmDxLnI6pTLHaM5rkfurUGWltwXSZbO6U+/6rOO60oqsw7FzIbDE/4vYQ46/qEvp3oUprLQ81azln+7DTsgWItPfkI6Ndxbfs0/Z/LLEXaJ9Og4mO++e1enr9ieQcXEPRy0gsxVmUdCRu8aW5v2MlPpZslwEFDLcGmbXvGBqETs7eYOfItr+dB6pc1HO+GLxVv6MP/3afvPE= dawn@dawn-ikame";
+sudo mkdir -p /home/jupyter/.ssh;
+sudo chown -R $USER:$USER /home/jupyter/.ssh;
+echo $KEY >> /home/jupyter/.ssh/authorized_keys;
+echo $KEY1 >> /home/jupyter/.ssh/authorized_keys;
+sudo chown -R jupyter:jupyter /home/jupyter/.ssh;
